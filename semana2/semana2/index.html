@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario Participación ciudadana</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <main>
+    <section class="contenedor">
+      <h1>Formulario Participación ciudadana</h1>
+
+      <p>
+        Este formulario permite recoger propuestas, ideas o necesidades de la comunidad.
+        La información será usada únicamente con fines de participación y organización comunitaria.
+      </p>
+
+      <form>
+        <div class="campo">
+          <label for="nombre">Nombre</label>
+          <input 
+            type="text" 
+            id="nombre" 
+            name="nombre" 
+            placeholder="Liseth Delahoz">
+        </div>
+
+        <div class="campo">
+          <label for=" propuesta">La comunidad prodria desarrollar un programa de apoyo a las familias con niños en edad escolar</label>
+          <textarea 
+            id="propuesta" 
+            name="propuesta" 
+            placeholder="La propuesta seria que desarrollen espacios de apoyo a las madres que tienen hijos en edad escolar con un apoyo etendido en las jornadas de cuidado de los menores"></textarea> propuesta
+        </div>
+
+        <div class="campo">
+          <label for="contacto">Correo electronico o contacto opcional</label>
+          <input 
+            type="text" 
+            id="contacto" 
+            name="contacto" 
+            placeholder="Lisethdelahoz13@gmail.com">
+        </div>
+
+        <div class="campo">
+          <label>
+            <input type="checkbox" name="consentimiento">
+            Acepto que mi información sea usada únicamente para fines de participación comunitaria.
+          </label>
+        </div>
+
+        <button type="submit">Enviar participación</button>
+      </form>
+    </section>
+  </main>
+
+</body>
+</html>
