@@ -1,0 +1,11 @@
+Al enviar un reporte mediante una petición POST, el servidor lo almacena temporalmente en un arreglo llamado "reportes". Al realizar una petición GET a la ruta /reportes, el servidor devuelve la lista de todos los reportes registrados mientras la aplicación está en ejecución.
+
+Ejemplo de respuesta:
+
+[
+  {
+    "id": 1,
+    "tipo": "Infraestructura",
+    "descripcion": "Daño en alumbrado público"
+  }
+]
